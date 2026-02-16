@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Floating Hearts Background
     const heartsContainer = document.getElementById('floatingHearts');
-    const heartSymbols = ['❤️', '💖', '💕', '🥰', '🌹'];
+    const heartSymbols = ['❤️', '💖', '💕', '🥰', '🌹' ,'💋'];
 
     function createHeart() {
         const heart = document.createElement('div');
@@ -250,3 +250,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
