@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Create a new heart every 500ms
-    setInterval(createHeart, 500);
+    setInterval(createHeart, 350);
 
 
     // 2. Playful "No" Button
@@ -250,4 +250,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
 
